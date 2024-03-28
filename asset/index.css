@@ -218,7 +218,7 @@
         margin-left: 50px;
     }
 }
-@media screen and (max-width:380px) {
+@media screen and (max-width:500px) {
     .body_page{
         background-color: rgb(255, 136, 0);
         /* width: 100%;
