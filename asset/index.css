@@ -1,0 +1,259 @@
+*,
+*::before,
+*::after{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+.body_page{
+    background-color: rgb(255, 136, 0);
+    width: 100%;
+    height: 130vh;
+    display: flex;
+    justify-content: center;
+}
+.content_one{
+    background-color: rgb(221, 220, 220);
+    width: 250px;
+    position: relative;   
+}
+/* content_one1 concerne la boite noire en haut */
+/* Cette partie concerne le container_one div principale 1 */
+.content_one1{
+    background-color: rgb(31, 31, 30);
+    width: 100%;
+    height: 32%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    justify-content: center;
+    text-align: center;
+    padding-top: 20px;
+    color: white;
+}
+.content_one1 img{
+    width: 150px;
+    border-radius: 50%;
+    margin-top: 40px;
+}
+/* Cette partie concerne le container_one div principale 2 */
+.content_one2{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    position: absolute;
+    width: 100%;
+    height: 20%;
+}
+.content_one2 .contact img{
+    width: 40px;
+    margin-right: 5px;
+}
+.icone_text_display img{
+    width: 30px;
+    margin-right: 5px;
+}
+.icone_text_display, .content_one2 .contact{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.div_font_size{
+    font-size: 11px;
+    text-align: left;
+    margin-top: 3px;
+}
+.three_icone_text{
+    margin-left:75px;
+    margin-top: 10px;
+}
+/* Cette partie concerne le container_one div principale 3 */
+.content_one3{
+    background-color: rgb(31, 31, 30);
+    width: 100%;
+    height: 45%;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    position: absolute;
+    padding-top: 100px;
+    color: white;
+    font-weight: bold;
+    bottom: 0px;
+}
+.content_one3 .icone_text_display img{
+    width: 35px;
+    margin-right: 5px;
+    background-color: antiquewhite;
+    border-radius: 50%;
+    padding: 2px;
+}
+.content_one3_three_text ul{
+    font-size: 11px;
+    margin-left: 70px;
+    margin-top: 10px;
+}
+.content_one3_three_text ul li{
+    margin-top: 5px;
+}
+.section_langue{
+    margin-top: 20px;
+}
+
+
+/* Cette partie concerne la section two ou encore le conteneur de droite */
+
+.content_two{
+    background-color: white;
+    /* height: 100vh;    */
+    padding-top: 20px;
+    padding-left: 30px;
+    text-align: left;
+    justify-content: left;
+}
+.propos{
+    text-align: left;
+}
+.content_two .propos .div_with{
+    margin-top: 10px;
+    width: 300px;
+    font-size: 12px;
+}
+.conteneur_stagiaire{
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+}
+.conteneur_stagiaire h6{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.prodevma_bamako{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.competence_li_text ul{
+    font-size: 12px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.competence_li_text ul li{
+    margin-top: 5px;
+}
+.competence_li_text .competence_langage{
+    margin-left: 40px;
+    margin-top: 5px;
+}
+.competence_li_text .competence_langage h5{
+    margin-top: 3px;
+}
+/* Cette aprtie le qedia querry de la page web */
+@media screen and (max-width:500px) {
+    .content_two{
+        /* background-color: rgb(255, 136, 0); */
+    }
+    .body_page{
+        /* background-color: rgb(255, 136, 0); */
+        height: 108vh;
+    }
+    .content_two{
+        padding-left: 5px;
+    }
+    .div_font_size{
+        font-size: 9px;
+    }
+    .three_icone_text{
+        margin-left:40px;
+    }
+    .content_one1 img{
+        width: 100px;
+        border-radius: 50%;
+        margin-top: 40px;
+    }
+    .content_one1 h2{
+        font-size: 20px;
+    }
+    .content_one{
+        background-color: rgb(221, 220, 220);
+        position: relative;  
+    }
+    .content_one1{
+        height: 25%;
+        padding-left: 15px;
+        padding-right: 10px; 
+        /* border-bottom-left-radius: 0%;
+        border-bottom-right-radius: 0%; */
+    }
+    .content_one2 .contact img{
+        width: 25px;
+    }
+    .contact h2{
+        font-size: 18px;
+    }
+    /* Cette partie concerne le container_one div principale 3 */
+    .content_one3{
+        width: 100%;
+        height: 45%;
+        /* border-top-left-radius: 0%; */
+        /* border-top-right-radius: 0%; */
+    }
+    .content_one3 .icone_text_display img{
+        width: 25px;
+        margin-right: 5px;
+        background-color: antiquewhite;
+        border-radius: 50%;
+        padding: 2px;
+    }
+    .content_one3_three_text ul{
+        font-size: 11px;
+        margin-left: 70px;
+        margin-top: 10px;
+    }
+    .icone_text_display h2{
+        font-size: 15px;
+    }
+    .content_one3_three_text ul{
+        margin-left: 50px;
+    }
+}
+@media screen and (max-width:380px) {
+    .body_page{
+        background-color: rgb(255, 136, 0);
+        /* width: 100%;
+        height: 130vh; */
+        display: block;
+        /* justify-content: center; */  
+    }
+    .content_one{
+
+    }
+    /* .content_one1{
+        height: 25%;
+        width: 100vh;
+        padding-left: 15px;
+        padding-right: 10px; 
+        /* border-bottom-left-radius: 0%;
+        border-bottom-right-radius: 0%; */
+    /* } */
+    .content_one2{
+        padding-top: 50px;
+        padding-bottom: 50px;
+    } 
+    .content_one{
+        width: 100vw;
+        height: 100vh;
+        position: relative;   
+    }
+
+    .content_one1 img{
+        width: 130px;
+        border-radius: 50%;
+        margin-top: 40px;
+    }
+    /* .content_one3{
+        width: 100%;
+        height: 60%; */
+        /* border-top-left-radius: 0%; */
+        /* border-top-right-radius: 0%; */
+    /* } */
+}
