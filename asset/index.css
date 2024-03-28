@@ -64,6 +64,7 @@
     text-align: left;
     margin-top: 3px;
 }
+
 .three_icone_text{
     margin-left:75px;
     margin-top: 10px;
@@ -82,7 +83,8 @@
     bottom: 0px;
 }
 .content_one3 .icone_text_display img{
-    width: 35px;
+    width: 30px;
+    height: 30px;
     margin-right: 5px;
     background-color: antiquewhite;
     border-radius: 50%;
