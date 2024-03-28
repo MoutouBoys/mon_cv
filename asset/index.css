@@ -150,7 +150,7 @@
     margin-top: 3px;
 }
 /* Cette aprtie le qedia querry de la page web */
-@media screen and (max-width:500px) {
+@media screen and (max-width:620px) {
     .content_two{
         /* background-color: rgb(255, 136, 0); */
     }
