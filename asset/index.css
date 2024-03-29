@@ -1,3 +1,4 @@
+/* pour avoir une contrôle parfaite sur toute la page */
 *,
 *::before,
 *::after{
@@ -6,6 +7,18 @@
     box-sizing: border-box;
     font-family: Arial, sans-serif;
 }
+/* Cette partie c'est pour créer une icone personnaliser avec css */
+/* button::before {
+    content: "\f050"; /* Code Unicode pour une icône */
+    /*font-family: FontAwesome;  Utilisation d'une police d'icônes */
+    /*margin-right: 5px;  Espacement entre l'icône et le texte du bouton */
+/* }    */
+/* la déclaration de variable avec css */
+:root {
+    --taille-police: 16px;
+    --couleur-police: #222121;
+}
+/*  */
 .body_page{
     background-color: rgb(255, 136, 0);
     width: 100%;
@@ -21,7 +34,7 @@
 /* content_one1 concerne la boite noire en haut */
 /* Cette partie concerne le container_one div principale 1 */
 .content_one1{
-    background-color: rgb(31, 31, 30);
+    background-color: var(--couleur-police);
     width: 100%;
     height: 32%;
     border-bottom-left-radius: 50%;
@@ -71,7 +84,7 @@
 }
 /* Cette partie concerne le container_one div principale 3 */
 .content_one3{
-    background-color: rgb(31, 31, 30);
+    background-color: var(--couleur-police);
     width: 100%;
     height: 45%;
     border-top-left-radius: 50%;
