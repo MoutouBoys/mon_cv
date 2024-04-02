@@ -164,6 +164,9 @@
 }
 /* Cette aprtie le qedia querry de la page web */
 @media screen and (max-width:620px) {
+    .content_two{
+        /* background-color: rgb(255, 136, 0); */
+    }
     .body_page{
         /* background-color: rgb(255, 136, 0); */
         height: 108vh;
@@ -226,5 +229,28 @@
     }
     .content_one3_three_text ul{
         margin-left: 50px;
+    }
+}
+@media screen and (max-width:500px) {
+    .body_page{
+        background-color: rgb(255, 136, 0);
+        /* width: 100%;
+        height: 130vh; */
+        display: block;
+    }
+    .content_one2{
+        padding-top: 50px;
+        padding-bottom: 50px;
+    } 
+    .content_one{
+        width: 100vw;
+        height: 100vh;
+        position: relative;   
+    }
+
+    .content_one1 img{
+        width: 130px;
+        border-radius: 50%;
+        margin-top: 40px;
     }
 }
